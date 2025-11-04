@@ -84,7 +84,7 @@ Run all cells in `algo_strategies_notebook.ipynb` from top to bottom. This will:
 The notebook produces and saves performance figures illustrating **runtime trends** and **output quality**.
 
 ### TV Commercial Scheduling (Greedy)
-- ![Job Sequencing Plot](images/job_sequencing_performance.png)  
+![Job Sequencing Plot](images/job_sequencing_performance.png)  
   → Execution time vs number of ads; total revenue vs scale.
 
 > **Insight**: Sorting dominates runtime; greedy slotting yields strong revenue under tight deadlines.
@@ -92,7 +92,7 @@ The notebook produces and saves performance figures illustrating **runtime trend
 ---
 
 ### 0/1 Knapsack (Dynamic Programming)
-- `images/knapsack_performance.png`  
+![Knapsack Performance Plot](images/knapsack_performance.png)  
   → Execution time vs number of items; maximum profit vs items.
 
 > **Insight**: Pseudo-polynomial scaling in capacity; returns **optimal selection** for discrete budgets.
@@ -100,7 +100,7 @@ The notebook produces and saves performance figures illustrating **runtime trend
 ---
 
 ### Sudoku Solver (Backtracking)
-- `images/sudoku_performance.png`  
+![Sudoku Backtracking Performance Plot](images/sudoku_performance.png)
   → Time vs empty cell count (difficulty proxy).
 
 > **Insight**: Branching grows with fewer constraints; **pruning via row/column/box checks is critical**.
@@ -108,7 +108,7 @@ The notebook produces and saves performance figures illustrating **runtime trend
 ---
 
 ### Password Cracking (Brute-Force)
-- `images/password_cracking_performance.png`  
+![Password Cracking Performance Plot](images/password_cracking_performance.png)
   → Attempts and time vs password length (**log scale**).
 
 > **Insight**: Exponential growth with length and charset demonstrates **strong-password necessity**.
