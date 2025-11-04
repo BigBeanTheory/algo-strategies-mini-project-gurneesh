@@ -84,7 +84,7 @@ Run all cells in `algo_strategies_notebook.ipynb` from top to bottom. This will:
 The notebook produces and saves performance figures illustrating **runtime trends** and **output quality**.
 
 ### TV Commercial Scheduling (Greedy)
-- `images/job_sequencing_performance.png`  
+- ![Job Sequencing Plot](images/job_sequencing_performance.png)  
   → Execution time vs number of ads; total revenue vs scale.
 
 > **Insight**: Sorting dominates runtime; greedy slotting yields strong revenue under tight deadlines.
