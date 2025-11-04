@@ -101,6 +101,7 @@ The notebook produces and saves performance figures illustrating **runtime trend
 
 ### Sudoku Solver (Backtracking)
 ![Sudoku Backtracking Performance Plot](images/sudoku_performance.png)
+
   → Time vs empty cell count (difficulty proxy).
 
 > **Insight**: Branching grows with fewer constraints; **pruning via row/column/box checks is critical**.
@@ -109,6 +110,7 @@ The notebook produces and saves performance figures illustrating **runtime trend
 
 ### Password Cracking (Brute-Force)
 ![Password Cracking Performance Plot](images/password_cracking_performance.png)
+
   → Attempts and time vs password length (**log scale**).
 
 > **Insight**: Exponential growth with length and charset demonstrates **strong-password necessity**.
