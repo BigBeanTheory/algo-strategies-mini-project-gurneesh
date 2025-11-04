@@ -1,4 +1,3 @@
-```markdown
 # Algorithmic Strategies: Lab Assignment 2
 
 A practical, end-to-end implementation of **four real-world problems** using **Greedy**, **Dynamic Programming**, **Backtracking**, and **Brute-Force**, with **runnable demos**, **performance plots**, and **concise trade-off analyses**.
@@ -180,4 +179,3 @@ pip install -r requirements.txt
 ```
 
 ---
-```
